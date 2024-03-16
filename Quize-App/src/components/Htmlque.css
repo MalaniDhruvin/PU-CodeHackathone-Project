@@ -1,0 +1,51 @@
+.htmlque{
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 100px;
+    padding: 10px;
+    /* border: 1px solid blue; */
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+
+}
+
+.htmlwi{
+    width: 500px;
+    background: #1c2538;
+    padding: 10px;
+    display: flex;
+}
+
+.option{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.htmlwi:nth-child(2n){
+    margin-left: 650px;
+    margin-top: -80px;
+    margin-bottom: 10px;
+}
+.htmlwi:nth-child(2n+1){
+    margin-left: 100px;
+}
+.htmlwi:nth-child(10){
+    margin-top: -103px;
+}
+
+.submit-btn{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    align-self: center;
+    
+}

@@ -1,42 +1,124 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.card-container {
+  background-color: #111827;
+  /* height: 100vh; */
+  padding: 20px;
+  /* border: 1px solid blue; */
+  cursor: pointer;
+  font-family:  "Poppins", sans-serif;;
+}
+
+.heading{
+  margin-top: 80px;
+  color: white;
   text-align: center;
+  font-size: 3.5rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.heading:hover{
+  text-decoration: underline;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.card-container .card-cont {
+  display: flex;
+  flex-wrap: wrap;
+  height: min-content;
+  justify-content: center;
+  gap: 20px;
+  /* border: 1px solid blue; */
+  padding: 20px;
 }
 
 .card {
-  padding: 2em;
+  max-width: 300px;
+  border-radius: 0.5rem;
+  border-radius: 10px;
+  /* background-color: black; */
+  border: 1px solid transparent;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  background-color: rgba(99, 97, 97, 0.308);
+  border: 1px solid rgba(255, 255, 255, 0.69);
+  height: 390px;
+  position: relative;
+  
 }
 
-.read-the-docs {
-  color: #888;
+.content {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+
 }
+
+.content .title {
+  font-size: xx-large;
+  color: white;
+  /* border: 1px solid blue; */
+  margin-top: 12px;
+  font-weight: 700;
+}
+
+.image {
+  /* object-fit: cover; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 170px;
+  background-color:white;
+  overflow: hidden;
+  /* border-radius: 10px; */
+}
+
+.image img{
+  /* width: 100%; */
+  height: 170px;
+}
+
+.desc {
+  margin-top: 0.5rem;
+  display: flex;
+  /* border: 1px solid blue; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.inner-desc {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.action {
+  display: flex;
+  gap: 10px;
+  margin: 12px 0px;
+  position: absolute;
+  bottom: 8px;
+}
+
+.action-cont {
+  color: white;
+
+  background: rgb(52, 95, 236);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.level {
+  background-color: rgb(192, 192, 45);
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
